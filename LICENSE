@@ -1,0 +1,20 @@
+Copyright (c) 2026 Vershinina_S. Всі права захищені. / All rights reserved.
+
+UA: Цей програмний код та його складові (дизайн, тексти, структура) є об'єктом
+авторського права. Без письмового дозволу автора заборонено копіювати,
+змінювати, поширювати, публікувати, продавати або іншим чином використовувати
+цей код чи його частини, зокрема створювати похідні твори та розміщувати
+копії на інших сайтах. Дозволено лише переглядати код на GitHub і користуватися
+додатком за посиланням, наданим автором.
+
+EN: This software and its components (design, texts, structure) are protected
+by copyright. Without prior written permission of the author, you may not
+copy, modify, distribute, publish, sell or otherwise use this software or any
+part of it, including creating derivative works or hosting copies elsewhere.
+Viewing the source on GitHub and using the application via the link provided
+by the author is permitted.
+
+Third-party components:
+index.html includes SheetJS (xlsx.js) 0.20.3, (C) 2013-present SheetJS,
+licensed under the Apache License 2.0 (https://www.apache.org/licenses/LICENSE-2.0).
+That component remains under its own license.

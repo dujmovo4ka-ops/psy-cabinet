@@ -3,6 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="author" content="Vershinina_S">
+<meta name="copyright" content="© 2026 Vershinina_S. Всі права захищені.">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 26 26'%3E%3Crect x='1' y='1' width='24' height='24' rx='7' fill='%236D5BD0'/%3E%3Cpath d='M13 5v13M8 7.5v3a5 5 0 0 0 10 0v-3M9.5 21h7' stroke='%23fff' stroke-width='1.9' fill='none' stroke-linecap='round'/%3E%3C/svg%3E">
 <title>Кабінет психолога — звіт і план лікування</title>
 <script>
@@ -104,6 +106,7 @@ t.sheetStubs=true}if(t.type=="array"){t.type="binary";var a=xk(e,t);t.type="arra
   .brand-title { display: flex; align-items: center; gap: 14px; }
   .brand-title h1 { font-size: 22px; font-weight: 700; letter-spacing: -.02em; text-wrap: balance; }
   .tagline { font-size: 13px; color: var(--ink-muted); margin-top: 3px; }
+  .app-foot { max-width: 1280px; margin: 0 auto; padding: 8px 16px 28px; text-align: center; font-size: 12px; color: var(--muted); }
   .hero-actions { display: flex; gap: 10px; flex-wrap: wrap; }
   .hero-stats { display: flex; gap: 12px; flex-wrap: wrap; }
   .stat {
@@ -1060,7 +1063,7 @@ t.sheetStubs=true}if(t.type=="array"){t.type="binary";var a=xk(e,t);t.type="arra
   @media print {
     @page { size: A4; margin: 14mm; }
     body { background: #fff !important; }
-    .hero, .wrap, .storage-warn, .modal-overlay, .toast { display: none !important; }
+    .hero, .wrap, .app-foot, .storage-warn, .modal-overlay, .toast { display: none !important; }
     #printArea { display: block; color: #221F2E; font-family: "Golos Text", system-ui, sans-serif; }
   }
 
@@ -1286,6 +1289,7 @@ t.sheetStubs=true}if(t.type=="array"){t.type="binary";var a=xk(e,t);t.type="arra
     <div id="listsContainer"></div>
   </section>
 </main>
+<footer class="app-foot">© 2026 Vershinina_S. Всі права захищені.</footer>
 
 <!-- Редактор рахунку / акту -->
 <div class="modal-overlay" id="docModal">
